@@ -2,6 +2,7 @@
 const api_list = {
   //注册接口
   api_register: '/dm_work/customer/me/register',
+  // console.log('555');
   //登录接口
   api_login: '/dm_work/customer/me/login',
   //获取个人基本信息
@@ -148,7 +149,7 @@ const api_list = {
   api_getNoReadLikedCount: '/dm_work/message/comment_like_message/me/get_unread_comment_like_message_count',
   //获取回复消息
   api_geReplyMessage: '/dm_work/interaction/comment_message_info/me/get_comment_message_info_list',
-  
+
   // 发送当前用户回复他人的评论
   api_postReplyToPerson: '/dm_work/interaction/work_comment/me/publish_reply',
   // 发送对作品直接发表的评论
