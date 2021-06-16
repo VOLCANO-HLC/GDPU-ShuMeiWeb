@@ -1,0 +1,75 @@
+.el-tabs__content{
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
+}
+.list{
+  margin-top: 0;
+  margin-bottom: .1rem;
+}
+.el-tab-pane{
+  height: 100%;
+}
+.userSpace .van-sidebar{
+  width: 100%;
+}
+.userSpace .van-sidebar-item{
+  background: none;
+  font-size: .09rem;
+  padding: .1rem .05rem;
+  line-height: .1rem;
+}
+.userSpace .van-sidebar-item__text{
+  width: 100%;
+  text-align: center;
+  /* margin: 0 auto; */
+  text-overflow: ellipsis;
+  height: .1rem;
+}
+
+.userSpace .van-sidebar-item--select::before{
+  width: .02rem;
+  height: .2rem;
+  background: #3a8ee6;
+}
+.userSpace .el-dropdown{
+  display: block;
+  /* height: .3rem; */
+  box-sizing: border-box;
+}
+
+.userSpace .operaBtn .el-button{
+  padding: .1rem ;
+  font-size: .03rem;
+}
+.el-pagination button{
+  height: .15rem;
+  line-height: .15rem;
+}
+.el-pagination .btn-prev .el-icon{
+  font-size: .05rem;
+  
+}
+.el-pagination .btn-next, .el-pagination .btn-prev{
+  background-color: rgb(255,255,255,.5);
+}
+.el-pager li{
+  height: .15rem;
+  font-size: .08rem;
+  line-height: .15rem;
+  background-color: #ffffff80;
+}
+.el-pagination span:not([class*=suffix]){
+  font-size: .08rem;
+}
+.el-pagination button:disabled{
+  background-color: rgb(255,255,255,.5);
+}
+.el-color-picker{
+  display: flex;
+  align-items: center;
+}
+.el-color-picker--mini .el-color-picker__trigger{
+  width: .15rem;
+  height: .15rem;
+}

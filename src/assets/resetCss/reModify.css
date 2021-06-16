@@ -1,0 +1,49 @@
+.el-form-item{
+  margin-bottom: .1rem;
+}
+.modifyInfo .el-form-item__label{
+  line-height: .2rem;
+  font-size: .1rem;
+  color: black;
+  padding-right: .1rem;
+}
+.modifyInfo .el-form-item__content{
+  font-size: .1rem;
+  line-height: .1rem;
+}
+/* 输入框 */
+.modifyInfo .el-input{
+  font-size: .1rem;
+}
+.modifyInfo .el-input__inner{
+  height: .2rem;
+  width: 2rem;
+  background: rgb(255,255,255,.5);
+  color: black;
+}
+.modifyInfo .el-input__inner:focus{
+  border-color: rgb(0,0,0,.5);
+}
+.modifyInfo .el-radio{
+  margin-top: .05rem;
+}
+
+/* 输入框 */
+.modifyInfo .el-radio__label{
+  font-size: .1rem;
+}
+/* 按钮 */
+.modifyInfo .el-button{
+  font-size: .1rem;
+}
+.modifyInfo .el-button--primary{
+  background-color: #31363b;
+  border-color: #31363b;
+}
+.van-uploader__upload{
+  width: .35rem;
+  height: .35rem;
+}
+.van-uploader__upload-icon{
+  font-size: .1rem;
+}

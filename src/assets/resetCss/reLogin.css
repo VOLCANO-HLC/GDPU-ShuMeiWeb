@@ -1,0 +1,69 @@
+.Login .el-form-item__label{
+    font-size: .1rem;
+
+}
+.Login .el-form-item__content{
+    font-size: .15rem;
+    text-align: center;
+}
+/* 输入框 */
+.Login .el-input{
+    font-size: .1rem;
+}
+.Login .el-input__inner{
+    background: rgb(255,255,255,.5);
+    color: black;
+}
+.Login .el-input__inner:focus{
+    border-color: rgb(0,0,0,.5);
+}
+.Login input::-webkit-input-placeholder {
+    color: rgb(0,0,0,.6);
+}
+.Login .el-input__icon{
+    color: rgb(0,0,0,.5);
+}
+.Login .el-form-item__error{
+    font-size: .08rem;
+}
+/* 输入框 */
+/* 多选框 */
+.Login .el-checkbox{
+    display: block;
+    float: left;
+    margin: .1rem 0 .1rem 0rem;
+}
+.Login .el-checkbox__inner{
+    width: .1rem;
+    height: .1rem;
+}
+.Login .el-checkbox__label{
+    font-size: .08rem;
+    color: rgb(0,0,0,.6)
+}
+.Login .el-checkbox__inner::after{
+    width: .025rem;
+    height: .04rem;
+    top: .015rem;
+    left: .03rem;
+}
+.Login .el-checkbox__input.is-checked .el-checkbox__inner{
+    background-color: #31363b;
+    border-color: #31363b;
+}
+.Login .el-checkbox__input.is-checked+.el-checkbox__label{
+    color: black;
+}
+/* 多选框 */
+/* 按钮 */
+.Login .el-button{
+    font-size: .1rem;
+}
+.Login .el-button--primary{
+    background-color: #31363b;
+    border-color: #31363b;
+}
+/* 按钮 */
+
+
+

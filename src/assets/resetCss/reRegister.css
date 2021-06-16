@@ -1,0 +1,32 @@
+.register .el-form-item__label{
+  font-size: .11rem;
+  color: black;
+}
+.register .el-form-item__content{
+  font-size: .15rem;
+}
+/* 输入框 */
+.register .el-input{
+  font-size: .1rem;
+}
+.register .el-input__inner{
+  background: rgb(255,255,255,.5);
+  color: black;
+}
+.register .el-input__inner:focus{
+  border-color: rgb(0,0,0,.5);
+}
+.register .el-form-item__error{
+  font-size: .08rem;
+}
+/* 输入框 */
+/* 按钮 */
+.register .el-button{
+  font-size: .1rem;
+}
+.register .el-button--primary{
+  background-color: #31363b;
+  border-color: #31363b;
+}
+/* 按钮 */
+

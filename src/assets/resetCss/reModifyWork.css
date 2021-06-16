@@ -1,0 +1,17 @@
+.modifyWork .van-uploader__input-wrapper{
+  display: flex;
+}
+.modifyWork .video-list .van-checkbox{
+  right: .1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.modifyWork .upload-demo{
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+.modifyWork .upload-demo .el-upload{
+  align-items: center;
+  display: flex;
+}
